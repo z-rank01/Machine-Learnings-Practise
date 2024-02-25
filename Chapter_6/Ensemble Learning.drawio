@@ -1,0 +1,115 @@
+<mxfile host="Electron" modified="2023-07-19T01:55:50.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="mdhoZ7A22yZYnhc6n1yN" version="21.6.1" type="device">
+  <diagram name="第 1 页" id="aZe0AEph8OXPYc5pCyoW">
+    <mxGraphModel dx="2406" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NC4aZ19vk25LXEvUjhe--1" value="Ensemble Learning" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="160" y="200" width="920" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--2" value="Majority Vote" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="160" y="320" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--4" target="NC4aZ19vk25LXEvUjhe--6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--4" value="Label" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--5" target="NC4aZ19vk25LXEvUjhe--8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--5" value="Probability" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--6" value="- np.bincount()&lt;br&gt;- np.argmax()&lt;br&gt;- weights" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="360" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--8" value="- np.average()&lt;br&gt;- np.argmax()&lt;br&gt;- weights" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="560" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--10" target="NC4aZ19vk25LXEvUjhe--14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--10" value="Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="960" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--11" target="NC4aZ19vk25LXEvUjhe--4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--11" target="NC4aZ19vk25LXEvUjhe--5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--11" value="Class Type" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="360" y="320" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--14" value="- BaseEstimator&lt;br style=&quot;font-size: 12px;&quot;&gt;.get_params&lt;br style=&quot;font-size: 12px;&quot;&gt;- GridSearchCV" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--16" value="Bagging, bootstrap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="160" y="680" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--17" target="NC4aZ19vk25LXEvUjhe--18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--17" value="Random Forest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="360" y="680" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--18" value="- sklearn.ensemble&lt;br&gt;.BaggingClassifier" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="360" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--20" target="NC4aZ19vk25LXEvUjhe--18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--20" value="( max_samples=int, &lt;br&gt;max_features=int, &lt;br&gt;bootstrap=bool )" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--22" value="Boosting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1040" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--23" target="NC4aZ19vk25LXEvUjhe--29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--23" value="Adaboost" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1040" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--25" target="NC4aZ19vk25LXEvUjhe--35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--25" value="XGBoosting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--27" value="&lt;h1&gt;`Algo rithm`&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;`label: haty=arg(max)_isum_(j=1)^momega_j(C_j(x)=i)`&lt;/span&gt;&lt;/div&gt;&lt;div&gt;`probability: haty=arg(max)_isum_(j=1)^momega_jp_(ij)`&lt;/div&gt;&lt;div&gt;&lt;svg style=&quot;vertical-align: 0px;&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 12 12&quot; role=&quot;img&quot; height=&quot;0.027ex&quot; width=&quot;0.027ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;defs&gt;&lt;/defs&gt;&lt;g transform=&quot;scale(1,-1)&quot; stroke-width=&quot;0&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mstyle&quot;&gt;&lt;g data-mml-node=&quot;mo&quot;&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="710" y="430" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--28" value="&lt;h1&gt;`Algo rithm`&lt;/h1&gt;&lt;div&gt;`Bo otstrap&amp;nbsp; datasets&amp;nbsp; sel ection:`&amp;nbsp;&lt;/div&gt;&lt;div&gt;- `decrease&amp;nbsp; variance&amp;nbsp; of&amp;nbsp; mo d el`&lt;/div&gt;&lt;div&gt;- `i ncrease&amp;nbsp; ac curacy&amp;nbsp; of&amp;nbsp; mo d el`&lt;/div&gt;&lt;div&gt;&lt;svg style=&quot;vertical-align: 0px;&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 12 12&quot; role=&quot;img&quot; height=&quot;0.027ex&quot; width=&quot;0.027ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;defs&gt;&lt;/defs&gt;&lt;g transform=&quot;scale(1,-1)&quot; stroke-width=&quot;0&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mstyle&quot;&gt;&lt;g data-mml-node=&quot;mo&quot;&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="560" y="840" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" parent="1" source="NC4aZ19vk25LXEvUjhe--29" target="NC4aZ19vk25LXEvUjhe--32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--29" value="- sklearn.ensemble&lt;br&gt;.AdaBoostClassifier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--31" value="&lt;h1&gt;`Algo rithm`&lt;/h1&gt;&lt;div&gt;`Adaboost:`&amp;nbsp;&lt;/div&gt;&lt;div&gt;- &lt;b&gt;train&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;`C_j=trai n(X, y, omega)`&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- &lt;b&gt;predict&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;`haty=predict(C_j, X)`&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- &lt;b&gt;error&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;`epsilon=omega*(haty!=y)`&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- &lt;b&gt;coefficient&lt;/b&gt;:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;`a_j=0.5log((1-epsilon)/epsilon)`&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- &lt;b&gt;update weights&lt;/b&gt;:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;`omega_(n ew)=omegaxxe^(-a_jxxhatyxxy)`&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- &lt;b&gt;normalize weights&lt;/b&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;`omega_(n ew)=omega/(sum_iomega_i)`&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- &lt;b&gt;final predict&lt;/b&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;`haty=sum_(j=1)^m(a_jxxpredict(C_j, X)) &amp;gt; 0`&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;svg style=&quot;vertical-align: 0px;&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 12 12&quot; role=&quot;img&quot; height=&quot;0.027ex&quot; width=&quot;0.027ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;defs&gt;&lt;/defs&gt;&lt;g transform=&quot;scale(1,-1)&quot; stroke-width=&quot;0&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mstyle&quot;&gt;&lt;g data-mml-node=&quot;mo&quot;&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="1160" width="220" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--32" value="( estimator=object, &lt;br&gt;n_estimators=int, &lt;br&gt;learning_rate=float)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NC4aZ19vk25LXEvUjhe--35" value="&lt;a href=&quot;https://scikit-learn.org/stable/modules/ensemble.html#&quot;&gt;1.11. Ensemble methods — scikit-learn 1.3.0 documentation&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Weaoa8q00dM91N7TL9zX-1" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;How it works?&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot;&gt;- The majority voting simply &lt;font color=&quot;#cc6600&quot;&gt;evaluate best scores with or not with weights&lt;/font&gt;. So it just a statistical method.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="320" width="190" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Weaoa8q00dM91N7TL9zX-2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;How it works?&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot;&gt;- Bagging utilize datasets and find best sets distribution to train. It always uses &lt;font color=&quot;#cc6600&quot;&gt;&#39;bootstrap&#39; sampling&lt;/font&gt; method which precisely means randomly sampling with replacement (return)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="680" width="190" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Weaoa8q00dM91N7TL9zX-3" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;How it works?&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot;&gt;- Boosting is a method promoting accuracy with wrong classify results. It learns more from errors&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot;&gt;- &lt;font color=&quot;#cc6600&quot;&gt;Traditional boosting&lt;/font&gt;: train&amp;nbsp; different classifiers with every epoch&#39;s subset aggregating wrong result samples. And it at last uses voting to combine all those classifiers. Traditional boosting learns errors according to wrong results&#39; data.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 13px;&quot;&gt;- &lt;font color=&quot;#cc6600&quot;&gt;Adaboost&lt;/font&gt;: train weighted weak learner with whole datasets every epochs while updating weights at the end of a epoch which contributes next learning epoch. Adaboost learns more from errors to weights of model&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1040" width="190" height="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

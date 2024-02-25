@@ -1,0 +1,192 @@
+<mxfile host="Electron" modified="2023-07-28T08:40:49.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="e9T-CaOotfGtQMGFMnZS" version="21.6.1" type="device">
+  <diagram name="第 1 页" id="uKQnckuGB_oqDtlKrPz5">
+    <mxGraphModel dx="689" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PHH8fjHEo_8SI4OXQQ06-1" value="Cluster" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="960" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-1" value="Hard Cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-2" target="ZZknKD89HIvUtP47UnSU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-2" target="ZZknKD89HIvUtP47UnSU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-2" value="K-means" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-3" target="ZZknKD89HIvUtP47UnSU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-3" value="sklearn.cluster&lt;br&gt;KMeans" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-5" value="n_cluster =`n`&lt;br&gt;init = `ra ndom`&lt;br&gt;n_init = `trai n&amp;nbsp; _&amp;nbsp; n umber`&lt;br&gt;max_iter = `iterations`&lt;br&gt;tol = `t ol erance`&lt;br&gt;random_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-7" value="&lt;h1&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Algorithm&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;1) randomly select `k` center of the initial cluster&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;2) dispatch every samples to nearest center depending on SSE/Euclidean&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;3) compute center of new formed cluster&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;4) repeat 2) and 3)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;SSE = Euclidean&lt;br style=&quot;border-color: var(--border-color); font-size: 10px; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 10px; text-align: center;&quot;&gt;`sum_(j=1)^m(x_j-y_j)^2` = `sum_(i=1)^nsum_(j=1)^komega^(i, j)||x^i-mu^i||_2^2`&lt;/span&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="190" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-9" target="ZZknKD89HIvUtP47UnSU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-9" target="ZZknKD89HIvUtP47UnSU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-9" value="K-means++" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="720" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-10" target="ZZknKD89HIvUtP47UnSU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-10" value="sklearn.cluster&lt;br&gt;KMeans" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="720" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-11" value="n_cluster =`n`&lt;br&gt;init = `k-means++`&lt;br&gt;n_init = `trai n&amp;nbsp; _&amp;nbsp; n umber`&lt;br&gt;max_iter = `iterations`&lt;br&gt;tol = `t ol erance`&lt;br&gt;random_state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-13" value="&lt;h1&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Algorithm&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;1) empty cluster M for storation of `k` centroid&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;2) randomly select a centroid(sample) into `M`&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;3) for every samples(not in `M`), calculate their minimum-squared distance to every centroid in `M`&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;4) randomly select next centroid `mu` and compute weighted-distribution: `(d(mu^p, M)^2)/(sum_i d (x^i,M)^2)`&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;5) repeat 2) and 3) until done selected `k` centroid&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="360" width="190" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-16" value="Soft Cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-17" value="FCM, Soft k-means" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-18" value="Hierarchy cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="840" width="120" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-20" target="ZZknKD89HIvUtP47UnSU-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-20" target="ZZknKD89HIvUtP47UnSU-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-20" target="ZZknKD89HIvUtP47UnSU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-20" target="ZZknKD89HIvUtP47UnSU-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-20" value="Agglomerative cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="840" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-21" value="Divisive cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-22" target="ZZknKD89HIvUtP47UnSU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-22" value="single linkage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-23" target="ZZknKD89HIvUtP47UnSU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-23" value="complete linkage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-24" target="ZZknKD89HIvUtP47UnSU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-24" value="average linkage&lt;br&gt;Ward linkage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-25" target="ZZknKD89HIvUtP47UnSU-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-25" value="sklearn.cluster&lt;br style=&quot;font-size: 10px;&quot;&gt;AgglomerativeClustering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1060" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-30" value="n_cluster =`n`&lt;br&gt;affinity = `eucli dean`&lt;br&gt;linkage = `si ngl e`, `com pl ete`, ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1160" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-32" value="&lt;h1&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Algorithm&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;1) calculate samples distance matrix &lt;b&gt;(scipy.pdist)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;2) every data in matrix are regarded as single-sample cluster&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;3) combine nearest cluster after computing farthest distance of every pair of data in matrix &lt;b&gt;(scipy.linkage)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;4) update correlation matrix&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;5) repeat 2),&amp;nbsp; 3) and 4) until only one cluster left&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="960" width="190" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-39" value="Density cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1320" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-40" target="ZZknKD89HIvUtP47UnSU-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-40" target="ZZknKD89HIvUtP47UnSU-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-40" value="Density-Based Spatial Clustering of Applications with Noise, DBSCAN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1320" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-41" target="ZZknKD89HIvUtP47UnSU-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-41" value="sklearn.cluster&lt;br style=&quot;font-size: 10px;&quot;&gt;DBSCAN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-42" value="eps = `float&amp;nbsp; n`&lt;br&gt;min_samples = `i n t&amp;nbsp; n`&lt;br&gt;metric = `eucl i d e an`" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1560" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-43" value="&lt;h1&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Algorithm&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;1) for every &lt;b&gt;core point&lt;/b&gt; or &lt;b&gt;concatenated core points&lt;/b&gt; forms a single cluster&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;2) dispatch every &lt;b&gt;border points&lt;/b&gt; to correlated &lt;b&gt;core point&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;3) &lt;b&gt;core point&lt;/b&gt;: if designated number&lt;b&gt;(MinPts)&lt;/b&gt; of neighbor points fall on area of `epsilon` radius sphere&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;4) &lt;b&gt;border point&lt;/b&gt;: Neighbor points number are lest than designated number(&lt;b&gt;MinPts&lt;/b&gt;)&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1440" width="190" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-47" value="Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1760" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-48" target="ZZknKD89HIvUtP47UnSU-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-48" value="elbow method" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-49" target="ZZknKD89HIvUtP47UnSU-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-49" value="silhouette map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-50" target="ZZknKD89HIvUtP47UnSU-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-50" value="heat map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-51" target="ZZknKD89HIvUtP47UnSU-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-51" value="tree map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-52" target="ZZknKD89HIvUtP47UnSU-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-52" value="KMeans.inertia_: SSE of inner cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-54" value="&lt;b&gt;distortions of different cluster number&lt;/b&gt; for best model selection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="ZZknKD89HIvUtP47UnSU-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-56" value="1. sklearn.metrics&lt;br&gt;- silhouette_samples&lt;br&gt;- silhouette_scores&lt;br&gt;2. plt.barh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-60" value="&lt;h1&gt;Silhouette Analysis&lt;/h1&gt;&lt;p&gt;1) calculate&lt;b&gt; cluster cohesion&lt;/b&gt; `a^i`: average distance between sample `x^i` and others sample&lt;/p&gt;&lt;p&gt;2) calculate &lt;b&gt;cluster separation&lt;/b&gt; `b^i`: average distance between sample `x^i` and samples in nearest cluster&amp;nbsp;&lt;/p&gt;&lt;p&gt;3) &lt;b&gt;silhouette coefficience&lt;/b&gt;: `s^i=(b^i-a^i)/(max{b^i,a^i})`&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2000" width="190" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-61" value="plt.matshow(dataframe, interpolation, cmap=&#39;hot_r&#39;)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZknKD89HIvUtP47UnSU-63" value="scipy.cluster.hierarchy&lt;br&gt;dendrogram(cluster, labels)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

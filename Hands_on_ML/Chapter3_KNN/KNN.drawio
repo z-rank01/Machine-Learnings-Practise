@@ -1,0 +1,94 @@
+<mxfile host="Electron" modified="2023-09-14T06:16:51.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="w_8tWCGZAWI5kvMkPWJ2" version="21.6.1" type="device">
+  <diagram name="第 1 页" id="qaRzX7sJMQZzMvLnQVBK">
+    <mxGraphModel dx="1206" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="225" y="370" width="150" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="JyESMGR1FMFt-hgIbmDr-1" value="KNN, K Nearest Neighbors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="240" y="160" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-1" target="EYb37NAJIUUlDRT6ChvP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-1" value="Paramters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-2" target="EYb37NAJIUUlDRT6ChvP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-2" value="Algorithm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-3" target="EYb37NAJIUUlDRT6ChvP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-3" value="Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="800" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-4" target="EYb37NAJIUUlDRT6ChvP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-4" target="EYb37NAJIUUlDRT6ChvP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-4" value="1. Calculate distances" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-6" target="EYb37NAJIUUlDRT6ChvP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-6" value="2. Sort indices by distances" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-8" target="EYb37NAJIUUlDRT6ChvP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-8" target="EYb37NAJIUUlDRT6ChvP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-8" value="3. Get &quot;K&quot; nearest neighbors&#39; labels" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-10" value="4. Select label that occurs most in these neighbor as prediction" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-13" value="&lt;b&gt;Fitting: actually not &#39;training&#39;, just sorting and selecting&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="505" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="20" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-15" value="&lt;b&gt;Prediction&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="695" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="709.58" as="sourcePoint" />
+            <mxPoint x="230" y="709.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-17" target="EYb37NAJIUUlDRT6ChvP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-17" value="2. K, number of desired neighbors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-19" target="EYb37NAJIUUlDRT6ChvP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="EYb37NAJIUUlDRT6ChvP-19" target="EYb37NAJIUUlDRT6ChvP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-19" value="1. Distance, &lt;br style=&quot;font-size: 11px;&quot;&gt;- &lt;b style=&quot;font-size: 11px;&quot;&gt;Euclidean distance&lt;/b&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;-&amp;nbsp;&lt;b style=&quot;font-size: 11px;&quot;&gt;Manhattan distance&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EYb37NAJIUUlDRT6ChvP-22" value="Accuracy: mean of equalities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="800" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

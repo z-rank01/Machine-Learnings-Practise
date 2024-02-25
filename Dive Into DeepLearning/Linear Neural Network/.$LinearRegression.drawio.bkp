@@ -1,0 +1,16 @@
+<mxfile host="Electron" modified="2023-08-01T03:07:53.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="FrEfXnPTgZZ2KnUhdcQw" version="21.6.1" type="device">
+  <diagram name="第 1 页" id="uKQnckuGB_oqDtlKrPz5">
+    <mxGraphModel dx="1206" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PHH8fjHEo_8SI4OXQQ06-1" value="Linear Regression in Math" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="960" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nz-Hh0ZINKgkWis8mHxT-1" value="Analytical solution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="120" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

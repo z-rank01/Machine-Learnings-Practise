@@ -1,0 +1,7 @@
+# github ignore
+
+# folder
+.ipynb_checkpoints/
+
+# files
+AI如何就业.png
